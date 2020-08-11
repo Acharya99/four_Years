@@ -1,0 +1,158 @@
+@import url('hhtps://fonts.googleapis.com/css?family=Montserrat:500');
+
+body{
+  margin:1%;
+  padding: 1%;
+
+}
+
+body{
+  padding:1%;
+  margin: 2%;
+  background-image: url("../images/back.jpg");
+  /*background-repeat: no-repeat;
+  background-size: 150%;*/
+}
+
+header{
+  /*background-image: url("../images/flywheel.jpg");*/
+  /*background-color: black;*/
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+  border-radius: 10px;
+}
+
+h1{
+  text-transform: uppercase;
+  text-align:center;
+  text-decoration-color: #FFFFFF;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+nav a{
+  display: inline-block;
+  height: 35px;
+  width: 120px;
+  background-color:rgba(255,255,255,0.5);
+  color:#000000;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 20px;
+  text-decoration: none;
+  }
+
+nav{
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: black;
+  border-radius: 20px;
+  /*box-sizing: auto;*/
+}
+
+header nav a:hover{
+  background-color:white;
+  color: red;
+}
+
+.active{
+  background-color: purple;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+img{
+
+width:200px;
+height: 300px;
+border-style: solid;
+border-color:#000000;
+margin:20px;
+transition: transform .5s ease;
+
+}
+
+img:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+.img{
+  display: inline;
+  /*border-style: double;*/
+
+}
+
+.con{
+  display: inline-block;
+  margin: 3%;
+  margin-left: 25%;
+  /*border-style: double;*/
+}
+main{
+  /*margin: 10%;*/
+  margin: auto;
+  padding: 1%;
+  background-color: rgba(169,169,169,0.5);
+  border-radius: 30px;
+  margin-top: 10%
+  /*margin-left:0%;*/
+}
+
+footer{
+  background-color: black;
+  border-radius: 10px;
+  }
+
+footer p{
+  color: #FFFFFF;
+  text-align: center;
+ }
+
+.logo{
+  border-style: solid;
+  border-color: black;
+  border-radius: 50%;
+}
